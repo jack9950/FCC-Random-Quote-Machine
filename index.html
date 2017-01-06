@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Random Quotes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="main.css" type="text/css">
+  </head>
+
+  <body>
+
+      <div class="container-fluid">
+
+        <header>
+          <h1>Quotes on tap!</h1>
+        </header>
+
+        <div>
+          <div class="jumbtron">
+            <!--Quotes container-->
+            <section id="quoteBox">
+              <blockquote>
+                <p id="actualQuote">Click for a random quote!</p>
+              </blockquote>
+            </section>
+
+            <!--Quote Author-->
+            <div>
+              <p id="author"></p>
+              <p></p>
+              <a id="linkToSource" href=""></a>
+            </div>
+
+            <!--Navigation Buttons-->
+            <nav class="quoteButton">
+              <button type="button" id="getMessage" class="btn btn-primary btn-lg">Random Quote</button>
+            </nav>
+
+            <div id="tweetBtn" class="tweetButton">
+              <a class="twitter-share-button"  href="https://twitter.com/share" data-size="large" data-text="Say Something...">Tweet</a>
+            </div>
+          </div>
+        </div>
+
+        <footer>
+          Coded by yours truly, Jackson Ndiho.
+        </footer>
+
+      </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+
+  </body>
+
+</html>

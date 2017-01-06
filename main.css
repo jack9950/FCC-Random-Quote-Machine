@@ -1,0 +1,29 @@
+header,
+h1 {
+  text-align: center;
+  padding: 50px 20px;
+  font: 400 100px/22px "Playball", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  text-align: center;
+}
+
+.container-fluid {
+  margin: 8% 5%;
+  background: #ececea;
+
+}
+
+.quoteButton {
+  margin: 20px 0 20px 60%;
+}
+
+.tweetButton {
+  margin: 20px 0 20px 60%;
+}
+
+footer {
+  margin-bottom: 2%;
+  font-size: 12px;
+}
