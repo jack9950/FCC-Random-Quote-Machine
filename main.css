@@ -1,3 +1,8 @@
+body {
+  padding-top: 10%;
+  background: #ececea;
+}
+
 h1 {
   text-align: center;
   /*padding: 50px 20px;*/
@@ -8,8 +13,11 @@ p {
   text-align: center;
 }
 
-.container-fluid {
-  background: #ececea;
+.container {
+  /*background: #ececea;*/
+  /*border: 1px solid #000000;
+  border-radius: 10px;*/
+  background-image: url("cubes.png");
 }
 
 .quoteButtonContainer:before,
@@ -35,7 +43,7 @@ p {
 
 }
 
-.tweetButtonContainer:before,
+/*.tweetButtonContainer:before,
 .tweetButtonContainer:after {
   content: "";
   display: table;
@@ -46,7 +54,7 @@ p {
 .tweetButtonContainer {
   clear: both;
   *zoom: 1;
-}
+}*/
 
 .tweetButton {
   /*margin: 20px 0 20px 60%;*/
@@ -56,6 +64,6 @@ p {
 
 footer {
   padding-top: 2%;
-  /*padding-bottom: 5%;*/
+  padding-bottom: 5px;
   font-size: 12px;
 }
