@@ -52,7 +52,6 @@ function getQuote() {
     //To be used to update the tweetText if user decides to tweet the Random Quote.
     var tweetText = actualQuote + " - " + author;
 
-
     /**************************************************************************
 
     To prepopulate the tweet with the random quote, the text in the twitter
@@ -69,17 +68,16 @@ function getQuote() {
     $("#tweetBtn iframe").remove();
     //Step 2:
     var tweetBtn = $("<a></a>")
-      .addClass("twitter-share-button")
-      .attr("href", "https://twitter.com/share")
-      .attr("data-size", "large")
-      .attr("data-text", tweetText);
+    .addClass("twitter-share-button")
+    .attr("href", "https://twitter.com/share")
+    .attr("data-size", "large")
+    .attr("data-text", tweetText);
     $("#tweetBtn").append(tweetBtn);
     //Step 3:
     twttr.widgets.load();
-
 	})
 
 	.fail(function(err){
-		alert("It failed");
+		alert("Please try again!");
 	});
 };
