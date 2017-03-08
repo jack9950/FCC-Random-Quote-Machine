@@ -78,6 +78,6 @@ function getQuote() {
 	})
 
 	.fail(function(err){
-		alert("Please try again!");
+		alert("Please try again! - ", error.message);
 	});
 };
